@@ -1,10 +1,10 @@
 {
-  "name": "Example Plugin",
-  "author": "John Doe",
+  "name": "Sync Offline Playtime",
+  "author": "Karma",
   "flags": ["debug", "_root"],
   "publish": {
-    "tags": ["template", "root"],
-    "description": "Decky example plugin.",
+    "tags": ["playtime", "utility"],
+    "description": "A plugin that tracks offline session playtime and allows for syncing to profile once backonline by leaving game on and terminating after session time has passed.",
     "image": "https://opengraph.githubassets.com/1/SteamDeckHomebrew/PluginLoader"
   }
 }

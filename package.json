@@ -1,7 +1,7 @@
 {
-  "name": "decky-plugin-template",
+  "name": "sync-offline-playtime",
   "version": "0.0.1",
-  "description": "A template to quickly create decky plugins from scratch, based on TypeScript and webpack",
+  "description": "A plugin that tracks offline session playtime and allows for syncing to profile once backonline by leaving game on and terminating after session time has passed.",
   "scripts": {
     "build": "shx rm -rf dist && rollup -c",
     "watch": "rollup -c -w",
@@ -14,16 +14,17 @@
   "keywords": [
     "decky",
     "plugin",
-    "plugin-template",
     "steam-deck",
-    "deck"
+    "deck",
+    "offline-playtime",
+    "utility"
   ],
-  "author": "Jonas Dellinger <jonas@dellinger.dev>",
+  "author": "Christopher Coco <chriscoco1205@gmail.com>",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/SteamDeckHomebrew/decky-plugin-template/issues"
+    "url": "https://github.com/cjcocokrisp/sd-sync-offline-playtime/issues"
   },
-  "homepage": "https://github.com/SteamDeckHomebrew/decky-plugin-template#readme",
+  "homepage": "https://github.com/cjcocokrisp/sd-sync-offline-playtime",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21.1.0",
     "@rollup/plugin-json": "^4.1.0",
